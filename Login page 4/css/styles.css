@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+}
+body{
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    background-color: rgb(224, 133, 207);
+    width: 80%;
+    height:80vh;
+    margin: 10vh auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.login-text {
+    background-image: url(../img/5446451.jpg);
+    background-size: cover;
+    width: 73%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;            
+    flex-direction: column;
+    color: whitesmoke;
+}
+
+.login-text h1{
+    width: 70%;
+    font-size: 50px;
+    font-weight: 600;    
+    margin-top: 17vh;
+}
+
+.login-text p{
+    width: 70%;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.login-area {
+    width: 500px;
+    height: 100%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    padding: 25px 25px;
+    color: #7d6afa;
+}
+
+.card-login h1 {
+    margin-bottom: 2.5rem ;
+    font-weight: 500;
+}
+
+
+.card-login input[type=text],
+input[type=password]{
+    background-color: #eae8ff;
+    width: 95%;
+    height: 40px;
+    margin-bottom: 1.4rem;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+.card-login button {
+    background: linear-gradient(to right, #d770bb, #866fdf);;
+    width: 135px;
+    color: white;
+    padding: 7px 10px;
+    margin-top: 1.5rem;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: .3s;
+}
+.card-login button:hover {
+    font-size: 18px;
+}
+
+.card-login i {
+    position: absolute;
+}
+
+#icon-user{
+    font-size: 19px;
+    margin: -87px 275px 0px 0px;
+}
+
+#icon-password {
+    font-size: 19px;
+    margin: 35px 275px 0px 0px;
+}
+
+#User-facilities{
+    width: 95%;
+    color: rgb(92, 90, 90);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 200;
+}
+
+#User-facilities label{
+    margin-left: -130px;
+    cursor: pointer;
+}
+
+#User-facilities input[type=radio]  {
+    border: 0px;
+    width: 20px;
+    height: 30px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.fa-circle-check {
+    font-size: 20px;
+    color: #7d6afa;
+    cursor: pointer;
+}
+.active{
+    opacity: 0;
+}
+
+#User-facilities label:hover {
+    color: rgb(44, 44, 44);
+    font-weight: 300;
+}
+#User-facilities a {
+    color: rgb(92, 90, 90);
+    
+}
+
+#User-facilities a:hover {
+    color: rgb(44, 44, 44);
+    font-weight: 300;
+}
